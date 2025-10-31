@@ -1,33 +1,14 @@
-# 💰 Program Menghitung Diskon Belanja
+# Program Hitung Diskon Belanja
 
-Program Java sederhana untuk menghitung **total bayar setelah diskon dan cashback** berdasarkan jumlah pembelian.
+Program ini digunakan untuk menghitung total belanja setelah menerapkan diskon dan cashback
+berdasarkan jumlah pembelian di restoran atau toko.
 
----
+## Fitur
+- Memvalidasi input total belanja agar positif.
+- Menentukan besaran diskon berdasarkan total belanja:
+   - Diskon 5% untuk belanja ≥ Rp100.000
+   - Diskon 10% untuk belanja ≥ Rp250.000
+   - Diskon 20% untuk belanja ≥ Rp500.000
+- Memberikan cashback 5% jika total bayar setelah diskon > Rp600.000.
+- Menampilkan struk pembayaran dengan format rupiah.
 
-## 📦 Deskripsi
-
-Aplikasi ini menerima input **total belanja (dalam rupiah)**, lalu menghitung:
-- Diskon berdasarkan nominal pembelian
-- Total bayar akhir setelah diskon
-- Bonus cashback 5% jika memenuhi syarat
-
-Dilengkapi dengan **JavaDoc** agar mudah dipahami dan dikembangkan.
-
----
-
-## 🧮 Aturan Diskon
-| Total Belanja | Diskon |
-|----------------|--------|
-| ≥ Rp500.000 | 20% |
-| ≥ Rp250.000 | 10% |
-| ≥ Rp100.000 | 5% |
-| < Rp100.000 | Tidak ada diskon |
-
-💸 **Bonus:** Cashback 5% jika total bayar > Rp600.000
-
----
-
-## 🚀 Cara Menjalankan
-1. Kompilasi program:
-   ```bash
-   javac HitungDiskon.java
