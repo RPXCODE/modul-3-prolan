@@ -1,6 +1,6 @@
 import java.text.DecimalFormat;
 import java.util.Scanner;
-
+//iqodhul himam
 /**
  * Kelas HitungDiskon digunakan untuk menghitung total belanja
  * setelah menerapkan diskon dan cashback berdasarkan jumlah pembelian.
