@@ -13,7 +13,7 @@ import java.util.Scanner;
  * @version 1.0
  * @since 2025-10-31
  */
-public class HitungDiskon {
+class HitungDiskon {
 
     /** Diskon 20% untuk pembelian ≥ Rp500.000 */
     private static final double DISKON_20 = 0.20;
